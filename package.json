@@ -1,0 +1,33 @@
+{
+  "name": "Raymond-Proxy-Server",
+  "version": "1.0.0",
+  "description": "FEC proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "Raymond Cabrera",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "node": "^9.11.0",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "request": "^2.85.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.4.3"
+  }
+}
