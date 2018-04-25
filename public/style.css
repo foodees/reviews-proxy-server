@@ -1,14 +1,31 @@
-#Info {
+/* #top-div, #bottom-div {
   display: block;
 }
 
-#CountDown {
-  margin-left: 5px;
+#about, #photos {
   display: inline-block;
+  float:left;
 }
 
-#Related {
-  margin: 10%;
-  display: block;
+#reviews, #nearby {
+  display: inline-block;
+  float: left;
+} */
+
+#top-div {
+  display: flex;
+  flex-direction: row;
 }
 
+#bottom-div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#reviews {
+  max-width: 80%;
+}
+
+#nearby {
+  padding-right: 3em;
+}
