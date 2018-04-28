@@ -12,6 +12,14 @@
   float: left;
 } */
 
+#main-div {
+  /* display: flex; */
+  /* align-self: center; */
+  /* text-align: center; */
+  margin: auto;
+  max-width: 90%;
+}
+
 #top-div {
   display: flex;
   flex-direction: row;
@@ -20,6 +28,18 @@
 #bottom-div {
   display: flex;
   flex-direction: row-reverse;
+}
+
+#map {
+  max-width: 30%;
+  margin-right: 2em;
+}
+
+#yelpScreenShot {
+  height: 91px;
+  width: 100vw;
+  max-width: 1500px;
+  object-fit: cover;
 }
 
 #reviews {

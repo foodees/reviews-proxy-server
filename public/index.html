@@ -3,26 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:3001/style.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:3002/biz/:business_id/style.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:3004/biz/:business_id/styles.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:3005/NearMe-style.css">
+    <link rel="stylesheet" type="text/css" href="http://54.227.138.137:3001/style.css">
+    <link rel="stylesheet" type="text/css" href="http://34.216.115.125:3002/style.css">
+    <link rel="stylesheet" type="text/css" href="http://18.144.7.69:3004/biz/:business_id/styles.css">
+    <link rel="stylesheet" type="text/css" href="http://34.216.115.125:3005/NearMe-style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <title>Foodees Proxy</title>
   </head>
   <body>
-    <!-- <div id="Info"></div>
+    <!-- <div id="Info"></div>http://34.216.115.125:3000/biz/-a857YYdjzgOdOjFFRsRXQ
     <div id="CountDown"></div>
     <div id="Related"></div> -->
-    <div id="heading"></div>
-    <div id="top-div">
-      <div id="about"><img src="./dummyScreenshots/foodees_about_screenshot3.png"></div>
-      <div id="photos"><img src="./dummyScreenshots/foodees_photos_screenshot.png"></div>
-      <!-- <div id="app"></div> -->
+    <div id="pageHeader">
+      <img id="yelpScreenShot" src="https://s3-us-west-1.amazonaws.com/foodeephotos/yelpHeader.png">
     </div>
-    <div id="bottom-div">
-      <div id="nearby"><img src="./dummyScreenshots/foodees_nearby_screenshot.png"></div>
-      <div id="reviews"></div>
+    <!-- <div id="Header"></div> -->
+    <div id="main-div">
+      <div id="Header"></div>
+      <div id="top-div">
+        <div id="MainInfo"><img src="./dummyScreenshots/foodees_about_screenshot3.png"></div>
+        <div id="app"><img src="./dummyScreenshots/foodees_photos_screenshot.png"></div>
+        <div id="modal"></div>
+        <!-- <div id="app"></div> -->
+      </div>
+      <div id="bottom-div">
+        <div>
+          <div id="SideBar"></div>
+          <div id="NearMe"><img src="./dummyScreenshots/foodees_nearby_screenshot.png"></div>
+        </div>
+        <div id="reviews"></div>
+      </div>
     </div>
 
     <!-- <script src="/lib/react.development.js"></script>
@@ -32,10 +42,10 @@
     <script src="http://localhost:3003/app.js"></script> -->
 
     <!-- <script src="http://localhost:3004/bundle.js"></script> -->
-    <script type="text/javascript" src="http://localhost:3001/bundle.js"></script>
-    <script type="text/javascript" src="http://localhost:3002/biz/:business_id/bundle.js"></script>
-    <script type="text/javascript" src="http://localhost:3004/biz/:business_id/bundle.js"></script>
-    <script type="text/javascript" src="http://localhost:3005/app.js"></script>
+    <script type="text/javascript" src="http://54.227.138.137:3001/bundle.js"></script>
+    <script type="text/javascript" src="http://34.216.115.125:3002/bundle.js"></script>
+    <script type="text/javascript" src="http://18.144.7.69:3004/biz/:business_id/bundle.js"></script>
+    <script type="text/javascript" src="http://34.216.115.125:3005/app.js"></script>
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
     <!-- <script>
       // ReactDOM.render(

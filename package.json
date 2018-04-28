@@ -4,7 +4,7 @@
   "description": "FEC proxy server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "start": "node ./server.js"
   },
   "keywords": [],
   "author": "Raymond Cabrera",
@@ -12,7 +12,6 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "css-loader": "^0.28.11",
     "express": "^4.16.2",
     "jquery": "^3.3.1",
     "morgan": "^1.9.0",
@@ -21,7 +20,6 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "request": "^2.85.0",
-    "style-loader": "^0.21.0",
     "webpack": "^4.6.0"
   },
   "devDependencies": {

@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/biz/:business_id', express.static(path.join(__dirname, 'public')));
 
 app.use('/reviews/', (req, res) => {
-  let url = `http://localhost:3004/biz/:business_id/reviews${req.url}`;
+  let url = `http://18.144.7.69:3004/biz/:business_id/reviews${req.url}`;
   req.pipe(request(url)).pipe(res);
 });
 
